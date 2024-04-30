@@ -1,0 +1,59 @@
+.head p:hover{
+    color: salmon;
+
+}
+h1:hover{
+    color: springgreen;
+
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: sandybrown;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: turquoise;
+}
+.back:hover{
+    width: 600px;
+    height: 130px;
+    background-color:wheat;
+}
+.back:hover p{
+    color: blue;
+}
+.back:hover h1{
+    color: red;
+}
+
+.ba{
+    position: relative;
+    text-align: center;
+    color: red;
+    text-shadow:5px 5px 5px orangered;
+}
+.ba::before{
+    position: absolute;
+    content: '';
+    width: 250px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(b.gif);
+    left: 325px;
+    bottom:1px;   
+}
+.ba::after{
+    position: absolute;
+    content: '';
+    width: 250px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(b.gif);
+    right: 325px;
+    bottom:1px;
+    
+}
